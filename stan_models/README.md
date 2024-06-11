@@ -1,7 +1,6 @@
 # Stan models
 
-This directory contains all of the Stan code we use to run simulation experiments, cross-sectional analyses, and longitudinal analyses.
-
+This directory contains all of the Stan code we use to run 
 | Naming            | Description                                                                       |
 |------------------ |-----------------------------------------------------                              |
 | gp-functions.stan | Contains general helper functions used in all HSGP models                         |
