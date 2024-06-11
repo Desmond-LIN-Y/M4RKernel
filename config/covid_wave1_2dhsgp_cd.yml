@@ -1,0 +1,20 @@
+seed: 1234
+
+data:
+  path: "COVIMOD_wave_1.rds"
+  waves: 1
+  num_participant_age_groups: 85
+  num_contact_age_groups: 13
+  single_contact_age: FALSE
+
+model:
+  name: "2dhsgp-eq-cd"
+  hsgp_binf: 1.5
+  hsgp_m1: 30
+  hsgp_m2: 30
+  chains: 4
+  warmup: 500
+  sampling: 1000
+  max_treedepth: 13
+  adapt_delta: 0.90
+  refresh: 50
